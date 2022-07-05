@@ -1,0 +1,47 @@
+/* p.vijay{
+ color: black;
+}
+p.raju{
+    color: black;
+} 
+p.vijay.raju{
+    border:1px solid red;
+
+} */
+#content{
+    background-color: blue;
+    padding: 20px;
+    color: green;
+}
+/* div .raju { color:red;
+} */
+/* a[href="https://www.kecrpg.com"]{ 
+    background-color:green;
+} */
+div{
+    color:green !important;
+    background-color: green;
+    border:1px solid red ;
+    margin:40px;
+  font-weight: bold;  
+}
+div p{border: inherit;
+margin: inherit;
+color:purple;
+}
+
+p{
+    background-color:white;
+    padding: 20px;
+
+}
+p{ 
+color: orange;
+}
+.raju{ background-color:orange ;
+}
+.vijay-raju{ background-color: green}
+.vijay{
+    color: white;
+    background-color: black;
+}
